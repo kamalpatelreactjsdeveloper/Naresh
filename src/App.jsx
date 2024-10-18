@@ -7,12 +7,11 @@ import About from './pages/about';
 import Quality from './pages/quality';
 import Contactus from './pages/contactus';
 import Products from './pages/products';
-
+import Header from './componants/Header';
 function App() {
   return (
     <Router>
-      <div className='border-black'>
-        <div className='text-center'>
+      <Header/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -20,8 +19,6 @@ function App() {
             <Route path="/Contactus" element={<Contactus />} />
             <Route path="/Products" element={<Products />} />
           </Routes>
-        </div>
-      </div>
     </Router>
   );
 }
