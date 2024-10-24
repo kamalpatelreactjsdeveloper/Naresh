@@ -16,13 +16,13 @@ import image6 from '../image/Jointing morter.jpeg';
 const MainPages = () => {
     return (
         <>
-            <section className="flex flex-col xs:flex-col-reverse   md:flex-row items-center md:py-0 lg:py-8" id="hero">
+            <section className=" flex flex-col xs:flex-col-reverse   md:flex-row items-center md:py-0 lg:py-8" id="hero">
                 <div className=" text-center md:mt-[100px] lg:mt-[101px] xl:mt-[126px] 2xl:mt-[88px] 3xl:mt-[88px] 3xl:w-[900px] md:text-left">
                     <div className="xl:ml-20 lg:ml-14 md:ml-8 xs:ml-4 italic xs:mt-6">
-                        <h2 className="flex items-center 3xl:text-6xl 2xl;text-6xl xl:text-5xl lg:text-4xl md:text-3xl xs:text-3xl s:text-[25px]">Ready to
+                        <h2 className="flex items-center 3xl:text-6xl 2xl;text-6xl xl:text-4xl lg:text-4xl md:text-3xl xs:text-3xl s:text-[25px]">Ready to
                             <span className="text-customtext font-bold 3xl:text-8xl 2xl:text-7xl xl:text-6xl lg:text-5xl xs:text-5xl s:text-4xl font-italic mx-2">MIX</span>
                             &</h2>
-                        <h2 className="flex items-center 3xl:text-6xl 2xl;text-6xl xl:text-5xl lg:text-4xl md:text-3xl xs:text-3xl s:text-[25px]">Ready to
+                        <h2 className="flex items-center 3xl:text-6xl 2xl;text-6xl xl:text-4xl lg:text-4xl md:text-3xl xs:text-3xl s:text-[25px]">Ready to
                             <span className="text-customtext font-bold 3xl:text-8xl 2xl:text-7xl  xl:text-6xl lg:text-5xl xs:text-5xl s:text-4xl mx-2">CONQUER!</span>
                         </h2>
                     </div>
@@ -62,7 +62,7 @@ const MainPages = () => {
                     <p className="text-lg 3xl:text-2xl 2xl:text-xl xl:text-lg lg:text-base md:text-sm xs:text-lg a:text-sm xs:text-start text-gray-700 mt-4">
                         SDEKAY INFRA MARKET PRIVATE LIMITED is a professionally managed company that produces Ready Mix Concrete for the building industry. SDEKAY INFRA MARKET PRIVATE LIMITED is poised to become a prominent player in the sunrise sector by leveraging extensive experience and resources.-</p>
                     <div className="flex gap-4 xs:gap-7 mt-4">
-                        <a href="#learn-more" className="bg-white flex text-black border border-blue-800 xl:pr-[3px] xl:pl-[13px]  a:text-[10px] xs:py-1  lg:pl-[10px] lg:pr-[3px] md:pr-[15px]  md:text-[12px] md:pl-[8px] xl:py-[2px] md:py-[5px] xs:text-[15px]  xs:pl-[8px] uppercase xl:text-2xl lg:text-lg hover:bg-[#005477] hover:text-white transition-colors">LEARN MORE
+                        <a href="#learn-more" className="bg-white flex text-black border border-blue-800 xl:pr-[3px] xl:pl-[13px]  a:text-[10px] xs:py-1  lg:pl-[10px] lg:pr-[3px] md:pr-[15px]  md:text-[12px] md:pl-[8px] xl:py-[2px] md:py-[5px] xs:text-[15px]  xs:pl-[8px] uppercase xl:text-2xl lg:text-lg hover:bg-[#005477] hover:text-white transition-colors" href="/Quality">KNOW MORE
                             <div className='ml-custom-left md:ml-[8px]  lg:mr-custom-right1 mr-custom-right xs:ml-[8px] xs:mr-0'>
                                 <span className='bg-[#005477] text-white xl:px-3 lg:px-3 lg:pt-[7px] lg:pb-[8px]  md:px-2 xl:py-[5px]  md:py-[6px]  xs:pt-[5px] xs:pb-[6px]  xs:px-2'>&gt;
                                 </span>
@@ -99,7 +99,7 @@ const MainPages = () => {
                     <img src={image3} alt="Cement Truck" className="3xl:w-[1100px] 3xl:h-[910px] 2xl:w-[2010px] xl:w-[1900px]  xl:h-[810px] lg:h-[610px] md:h-[450px] lg:w-[1239px] md:w-[1050px]" />
                 </div>
                 <div className="3xl:w-[850px] 3xl:h-[910px]  xl:h-[810px] lg:h-[610px] md:h-[449px] mt-[2px] bg-custombg text-white  text-start">
-                    <h2 className="pt-4 3xl:text-7xl xl:text-6xl lg:text-4xl  md:text-2xl text-start font-bold xl:ml-8 lg:ml-8 md:ml-6 xs:ml-4 xs:text-4xl">WHY CHOOSE US</h2>
+                    <h2 className="pt-4 3xl:text-7xl xl:text-6xl lg:text-4xl  md:text-2xl text-start font-bold xl:ml-8 lg:ml-8 md:ml-6 xs:ml-4 xs:text-4xl pt-3">WHY CHOOSE US</h2>
                     <div className="xl:mt-4 lg:mt-4 md:mt-1 xs:mt-2">
                         <div className="border-b border-white xl:py-4 lg:py-3 md:py-2 xs:py-2 lg:pt-4 xs:pt-3 text-start xl:pt-8 md:pt-2">
                             <h3 className="3xl:text-4xl xl:text-3xl lg:text-2xl  md:text-lg xs:text-2xl  font-bold xl:ml-8 lg:ml-8 md:ml-6 xs:ml-4">QUALITY UNIFORMITY</h3>
@@ -107,7 +107,7 @@ const MainPages = () => {
                         </div >
                         <div className="border-b border-white xl:py-4 lg:py-3 md:py-2 xs:py-2 lg:pt-4 md:pt-2 xs:pt-3 xl:pt-8">
                             <h3 className="3xl:text-4xl xl:text-3xl lg:text-2xl  md:text-lg xs:text-2xl  font-bold xl:ml-8 lg:ml-8  md:ml-6 xs:ml-4">PRE & POST EVALUATION</h3>
-                            <p className="3xl:text-[28px] xl:text-xl lg:text-base md:text-xs 3xl:mt-4 xl:mt-2 xl:ml-8 lg:ml-8  md:ml-6 xs:ml-4">We provide the best possible service through pre-evaluation of the project.The concrete samples from site are also further analyzed through intensive BLET evaluation.</p>
+                            <p className="3xl:text-[28px] xl:text-xl lg:text-base md:text-xs 3xl:mt-4 xl:mt-2 xl:ml-8 lg:ml-8  md:ml-6 xs:ml-4">We provide the best possible service through pre-evaluation of the project.The concrete samples from site are also further analyzed through intensive Belt evaluation.</p>
                         </div>
                         <div className="border-b border-white xl:py-4 lg:py-3 md:py-2 xs:py-2 lg:pt-4 md:pt-2 xs:pt-3 xl:pt-8">
                             <h3 className="3xl:text-4xl xl:text-3xl lg:text-2xl  md:text-lg xs:text-2xl  font-bold xl:ml-8 lg:ml-8  md:ml-6 xs:ml-4">CUSTOMIZED CONCRETE</h3>
@@ -125,8 +125,10 @@ const MainPages = () => {
                 <h2 className="3xl:text-7xl xl:text-6xl md:text-4xl xs:text-4xl text-start font-bold mb-6">
                     OUR
                     <br />
-                    <span className="3xl:text-9xl  xl:text-8xl md:text-5xl xs:text-5xl text-customtext italic inline">DIVISIONS</span>
+                    <span className="3xl:text-9xl xl:text-8xl md:text-5xl xs:text-5xl text-customtext italic inline">DIVISIONS</span>
                 </h2>
+
+
 
                 <div className=" slider overflow-hidden relative">
                     <input type="radio" name="slider" id="slide1" defaultChecked />
@@ -140,7 +142,7 @@ const MainPages = () => {
                                         <div className="absolute bottom-0 left-0 w-full  3xl:p-12 xl:p-6 lg:p-6 md:p-3 xs:p-4 text-white">
                                             <h3 className="3xl:text-5xl xl:text-4xl xs:text-3xl  text-start md:text-[21px] font-bold">ADMIXTURE</h3>
                                             <div className="flex items-center 3xl:mt-4 xs:mt-2 mt-4 md:mt-2">
-                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[114px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[7px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
+                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[114px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[7px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" to='#Admixture'>Learn More
                                                     <div className='xl:ml-[17px] md:ml-[8px] xs:ml-[8px] mr-custom-right'>
                                                         <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[6px] xs:pb-[7px] ">&gt;</span>
                                                     </div>

@@ -11,30 +11,30 @@ const Footer = () => {
                     <p className="mt-4 3xl:text-xl  xl:text-sm md:text-xs text-gray-700 leading-snug">
                         Our objective is to create a world that balances progress and heritage. SDEKAY INFRA MARKET PRIVATE LIITED (formerly known as Naresh Enterprise) is a professionally managed company that manufactures ready-mix concrete for the building industry.
                     </p>
-                    
+
                 </div>
                 <div className="pt-3 xs:mt-3">
                     <h4 className="xl:text-xl lg:text-lg 3xl:text-3xl  md:text-base xs:text-xl font-bold mb-4">EXPLORE</h4>
                     <div className="flex xs:justify-center">
                         <ul className=" space-y-3 3xl:text-2xl xl:text-xl lg:text-base md:text-xs">
-                            <li className='3xl:py-2'>Home</li>
-                            <li className='3xl:py-2' >Who we are</li>
-                <li className='3xl:py-2'>Our Products</li>
-                            <li className='3xl:py-2'>Quality & Technology</li>
+                            <li className='3xl:py-2' ><a href='/'>Home </a></li>
+                            <li className='3xl:py-2' ><a>Who we are</a></li>
+                            <li className='3xl:py-2' ><a href='/Products'>Our Products</a></li>
+                            <li className='3xl:py-2' ><a href="/Quality">Quality & Technology</a></li>
                         </ul>
                         <ul className="ml-8 3xl:ml-12  space-y-3 3xl:text-2xl xl:text-xl lg:text-base md:text-xs">
-                            <li className='3xl:py-2'>Media</li>
-                            <li className='3xl:py-2'>Contact Us</li>
-                            <li className='3xl:py-2'>Careers</li>
-                            <li className='3xl:py-2'>Blogs</li>
+                            <li className='3xl:py-2'><a>Media</a></li>
+                            <li className='3xl:py-2'><a href="/Contactus">Contact Us</a></li>
+                            <li className='3xl:py-2'><a>Careers</a></li>
+                            <li className='3xl:py-2'><a>Blogs</a></li>
                         </ul>
                     </div>
                 </div>
                 <div className="pt-3 xs:mt-3">
                     <h4 className="xl:text-lg lg:text-lg font-bold xs:text-xl 3xl:text-3xl  md:text-base mb-4">POLICY</h4>
                     <ul className="space-y-3 3xl:text-2xl xl:text-xl lg:text-base md:text-xs">
-                        <li className='3xl:py-2'>Terms & Conditions</li>
-                        <li className='3xl:py-2'>Privacy Policy</li>
+                        <li className='3xl:py-2'><a>Terms & Conditions</a></li>
+                        <li className='3xl:py-2'><a>Privacy Policy</a></li>
                     </ul>
                 </div>
 

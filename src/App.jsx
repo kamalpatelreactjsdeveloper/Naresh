@@ -8,17 +8,20 @@ import Quality from './pages/quality';
 import Contactus from './pages/contactus';
 import Products from './pages/products';
 import Header from './componants/Header';
+import Rmc from './pages/rmc';
 function App() {
   return (
     <Router>
-      <Header/>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/Quality" element={<Quality />} />
-            <Route path="/Contactus" element={<Contactus />} />
-            <Route path="/Products" element={<Products />} />
-          </Routes>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/Products" element={<Products />} />
+        <Route path="/Rmc" element={<Rmc />} />
+        <Route path="/Quality" element={<Quality />} />
+        <Route path="/Contactus" element={<Contactus />} />
+
+      </Routes>
     </Router>
   );
 }

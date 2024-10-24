@@ -3,7 +3,7 @@ import BackgroundImage from '../image/Aboutusbanner.jpg';
 
 const Aboutbanner = () => {
     return (
-        <div className="relative w-full ">
+        <div className="relative w-full 2xl:container-[1440px] 2xl:pt-[50px]">
             <img
                 src={BackgroundImage}
                 alt="Construction Site"

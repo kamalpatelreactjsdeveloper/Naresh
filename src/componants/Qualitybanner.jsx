@@ -1,9 +1,9 @@
 import React from 'react';
-import BackgroundImage from '../image/qualitybannner.jpg';
+import BackgroundImage from '../image/qualitybanner.jpg';
 
 const Qualitybanner = () => {
     return (
-        <div className="relative w-full h-full  ">
+        <div className="relative w-full h-full  2xl:pt-[50px]">
             <img
                 src={BackgroundImage}
                 alt="Construction Site"
