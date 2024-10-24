@@ -32,13 +32,13 @@ const MainPages = () => {
                     <div className="xl:ml-20 lg:ml-14 md:ml-8 xs:ml-4 flex  gap-2 xs:gap-4">
                         <a href="#know-more" className=" flex bg-white lg:text-lg xl:text-2xl md:text-[12px] xs:text-[15px] s:text-[13px] a:text-[10px] md:pl-[8px] xs:pl-[8px]  md:pr-[15px]  text-black border border-blue-800 xl:pr-[3px] xl:pl-[13px] lg:pl-[10px] lg:pr-[3px]    py-1  uppercase  hover:bg-[#005477] hover:text-white transition-colors">KNOW MORE
                             <div className='ml-custom-left xs:ml-[8px] xs:mr-0 md:ml-[8px] lg:mr-custom-right1 mr-custom-right'>
-                                <span className='bg-[#005477] text-white xl:px-3 lg:px-3  md:px-2 xs:px-2 xl:py-[7px] lg:pt-[6px] lg:pb-[7px]  md:py-[6px] xs:pt-[px] xs:pb-[6px] '>&gt;
+                                <span className='bg-[#005477] text-white xl:px-3 lg:px-3  md:px-2 xs:px-2 xl:py-[7px] lg:pt-[6px] lg:pb-[7px]  md:py-[6px] xs:pt-[6px] xs:pb-[8px] '>&gt;
                                 </span>
                             </div>
                         </a>
                         <a href="#download-brochure" className=" flex bg-white lg:text-lg  xl:text-2xl md:text-[12px]  s:text-[13px] a:text-[10px] md:pl-[8px] md:pr-[15px] md:ml-[14px] xs:text-[15px]  xs:pl-[8px] text-black border border-blue-800 xl:pr-[3px] xl:pl-[13px] lg:pl-[10px] lg:pr-[3px]  py-1  uppercase  hover:bg-[#005477] hover:text-white transition-colors">DOWNLOAD BROCHURE
                             <div className='ml-custom-left md:ml-[8px] lg:mr-custom-right1 mr-custom-right xs:ml-[8px] xs:mr-0 '>
-                                <span className=' bg-[#005477] text-white xl:px-3 lg:px-3  md:px-2 xl:py-[7px] lg:pt-[6px] lg:pb-[7px]  md:py-[6px] xs:pt-[5px] xs:pb-[6px]  xs:px-2'>&#9660;
+                                <span className=' bg-[#005477] text-white xl:px-3 lg:px-3  md:px-2 xl:py-[7px] lg:pt-[6px] lg:pb-[7px]  md:py-[6px] xs:pt-[7px] xs:pb-[8px]  xs:px-2'>&#9660;
                                 </span>
                             </div>
                         </a>
@@ -64,13 +64,13 @@ const MainPages = () => {
                     <div className="flex gap-4 xs:gap-7 mt-4">
                         <a href="#learn-more" className="bg-white flex text-black border border-blue-800 xl:pr-[3px] xl:pl-[13px]  a:text-[10px] xs:py-1  lg:pl-[10px] lg:pr-[3px] md:pr-[15px]  md:text-[12px] md:pl-[8px] xl:py-[2px] md:py-[5px] xs:text-[15px]  xs:pl-[8px] uppercase xl:text-2xl lg:text-lg hover:bg-[#005477] hover:text-white transition-colors" href="/Quality">KNOW MORE
                             <div className='ml-custom-left md:ml-[8px]  lg:mr-custom-right1 mr-custom-right xs:ml-[8px] xs:mr-0'>
-                                <span className='bg-[#005477] text-white xl:px-3 lg:px-3 lg:pt-[7px] lg:pb-[8px]  md:px-2 xl:py-[5px]  md:py-[6px]  xs:pt-[5px] xs:pb-[6px]  xs:px-2'>&gt;
+                                <span className='bg-[#005477] text-white xl:px-3 lg:px-3 lg:pt-[7px] lg:pb-[8px]  md:px-2 xl:py-[5px]  md:py-[6px]  xs:pt-[7px] xs:pb-[8px]  xs:px-2'>&gt;
                                 </span>
                             </div>
                         </a>
                         <a href="#vision-values" className="bg-white flex text-black border border-blue-800 xl:pr-[3px] xl:pl-[13px]  a:text-[10px] xs:py-1 lg:pl-[10px] lg:pr-[3px]  md:text-[12px] md:pl-[8px]  md:pr-[15px] md:ml-[6px] xl:py-[2px] md:py-[5px] xs:text-[15px]  xs:pl-[8px] uppercase xl:text-2xl lg:text-lg hover:bg-[#005477] hover:text-white transition-colors">VISION & VALUES
                             <div className='ml-custom-left md:ml-[8px] lg:mr-custom-right1 mr-custom-right xs:ml-[8px] xs:mr-0'>
-                                <span className='bg-[#005477] text-white xl:px-3 lg:px-3 md:px-2 lg:pt-[7px] lg:pb-[8px]  xl:py-[5px] md:py-[6px]  xs:pt-[5px] xs:pb-[6px]  xs:px-2 '>&gt;
+                                <span className='bg-[#005477] text-white xl:px-3 lg:px-3 md:px-2 lg:pt-[7px] lg:pb-[8px]  xl:py-[5px] md:py-[6px]  xs:pt-[7px] xs:pb-[8px]  xs:px-2 '>&gt;
                                 </span>
                             </div>
                         </a>
@@ -142,9 +142,9 @@ const MainPages = () => {
                                         <div className="absolute bottom-0 left-0 w-full  3xl:p-12 xl:p-6 lg:p-6 md:p-3 xs:p-4 text-white">
                                             <h3 className="3xl:text-5xl xl:text-4xl xs:text-3xl  text-start md:text-[21px] font-bold">ADMIXTURE</h3>
                                             <div className="flex items-center 3xl:mt-4 xs:mt-2 mt-4 md:mt-2">
-                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[114px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[7px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" to='#Admixture'>Learn More
+                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[121px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[7px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" to='#Admixture'>Learn More
                                                     <div className='xl:ml-[17px] md:ml-[8px] xs:ml-[8px] mr-custom-right'>
-                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[6px] xs:pb-[7px] ">&gt;</span>
+                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[7px] xs:pb-[8px] ">&gt;</span>
                                                     </div>
                                                 </a>
                                             </div>
@@ -154,9 +154,9 @@ const MainPages = () => {
                                         <div className="absolute bottom-0 left-0 w-full 3xl:p-12 xl:p-6 lg:p-6 md:p-3 xs:p-4 text-white">
                                             <h3 className="3xl:text-5xl xl:text-4xl xs:text-3xl  text-start md:text-[21px] font-bold">ACC BLOCK</h3>
                                             <div className="flex items-center 3xl:mt-4 xs:mt-2 mt-4 md:mt-2">
-                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[114px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[7px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
+                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[121px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[7px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
                                                     <div className='xl:ml-[17px] md:ml-[8px] xs:ml-[8px] mr-custom-right'>
-                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[6px] xs:pb-[6px] ">&gt;</span>
+                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[8px] xs:pb-[8px] ">&gt;</span>
                                                     </div>
                                                 </a>
                                             </div>
@@ -166,9 +166,9 @@ const MainPages = () => {
                                         <div className="absolute bottom-0 left-0 w-full 3xl:p-12 xl:p-6 lg:p-6 md:p-3 xs:p-4 text-white">
                                             <h3 className="3xl:text-5xl xl:text-4xl xs:text-3xl  text-start md:text-[21px] font-bold">JOINTING MORTAR</h3>
                                             <div className="flex items-center 3xl:mt-4 xs:mt-2 mt-4 md:mt-2">
-                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[114px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[7px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
+                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[121px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[7px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
                                                     <div className='xl:ml-[17px] md:ml-[8px] xs:ml-[8px] mr-custom-right'>
-                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[6px] xs:pb-[7px] ">&gt;</span>
+                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[8px] xs:pb-[8px] ">&gt;</span>
                                                     </div>
                                                 </a>
                                             </div>
@@ -182,9 +182,9 @@ const MainPages = () => {
                                         <div className="absolute bottom-0 left-0 w-full  3xl:p-12 xl:p-6 lg:p-6 md:p-3 xs:p-4 text-white">
                                             <h3 className="3xl:text-5xl xl:text-4xl xs:text-3xl  text-start md:text-[21px] font-bold">ADMIXTURE</h3>
                                             <div className="flex items-center 3xl:mt-4 xs:mt-2 mt-4 md:mt-2">
-                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[114px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[18px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
+                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[121px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[18px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
                                                     <div className='xl:ml-[17px] md:ml-[8px] xs:ml-[8px] mr-custom-right'>
-                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[6px] xs:pb-[7px] ">&gt;</span>
+                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[7px] xs:pb-[8px] ">&gt;</span>
                                                     </div>
                                                 </a>
                                             </div>
@@ -194,9 +194,9 @@ const MainPages = () => {
                                         <div className="absolute bottom-0 left-0 w-full 3xl:p-12 xl:p-6 lg:p-6 md:p-3 xs:p-4 text-white">
                                             <h3 className="3xl:text-5xl xl:text-4xl xs:text-3xl  text-start md:text-[21px] font-bold">ACC BLOCK</h3>
                                             <div className="flex items-center 3xl:mt-4 xs:mt-2 mt-4 md:mt-2">
-                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[114px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[18px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
+                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[121px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[18px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
                                                     <div className='xl:ml-[17px] md:ml-[8px] xs:ml-[8px] mr-custom-right'>
-                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[6px] xs:pb-[6px] ">&gt;</span>
+                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[8px] xs:pb-[8px] ">&gt;</span>
                                                     </div>
                                                 </a>
                                             </div>
@@ -206,9 +206,9 @@ const MainPages = () => {
                                         <div className="absolute bottom-0 left-0 w-full 3xl:p-12 xl:p-6 lg:p-6 md:p-3 xs:p-4 text-white">
                                             <h3 className="3xl:text-5xl xl:text-4xl xs:text-3xl  text-start md:text-[21px] font-bold">JOINTING MORTAR</h3>
                                             <div className="flex items-center 3xl:mt-4 xs:mt-2 mt-4 md:mt-2">
-                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[114px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[18px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
+                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[121px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[18px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
                                                     <div className='xl:ml-[17px] md:ml-[8px] xs:ml-[8px] mr-custom-right'>
-                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[6px] xs:pb-[7px] ">&gt;</span>
+                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[8px] xs:pb-[8px] ">&gt;</span>
                                                     </div>
                                                 </a>
                                             </div>

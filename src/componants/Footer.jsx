@@ -9,13 +9,13 @@ const Footer = () => {
                 <div className="xl:w-80 3xl:w-[400px] lg:w-[280px] md:w-[200px] xs:mt-3 mt-1">
                     <img src={Logo} alt="Naresh Enterprise Logo" className="xl:max-w-[296px] 3xl:w-[200px] md:max-w-[127px]" />
                     <p className="mt-4 3xl:text-xl  xl:text-sm md:text-xs text-gray-700 leading-snug">
-                        Our objective is to create a world that balances progress and heritage. SDEKAY INFRA MARKET PRIVATE LIITED (formerly known as Naresh Enterprise) is a professionally managed company that manufactures ready-mix concrete for the building industry.
+                        Our objective is to create a world that balances progress and heritage. SDEKAY INFRA MARKET PRIVATE LIMITED (formerly known as Naresh Enterprise) is a professionally managed company that manufactures ready-mix concrete for the building industry.
                     </p>
 
                 </div>
                 <div className="pt-3 xs:mt-3">
                     <h4 className="xl:text-xl lg:text-lg 3xl:text-3xl  md:text-base xs:text-xl font-bold mb-4">EXPLORE</h4>
-                    <div className="flex xs:justify-center">
+                    <div className="flex xs:justify-left">
                         <ul className=" space-y-3 3xl:text-2xl xl:text-xl lg:text-base md:text-xs">
                             <li className='3xl:py-2' ><a href='/'>Home </a></li>
                             <li className='3xl:py-2' ><a>Who we are</a></li>

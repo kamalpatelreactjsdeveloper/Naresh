@@ -19,7 +19,7 @@ const Contactus1 = () => {
                             SDEKAY INFRA MARKET PRIVATE LIMITED.
                         </p>
                     </div>
-                    <div className="w-full md:w-1/2 xl:p-[50px] bg-[#f2f7fa]">
+                    <div className="w-full md:w-1/2 xl:p-[50px] xs:p-[24px] bg-[#f2f7fa]">
                         <form className="lg:space-y-6 md:space-y-3 xs:space-y-3">
                             <div>
                                 <input
@@ -63,10 +63,10 @@ const Contactus1 = () => {
                                     required
                                 ></textarea>
                             </div>
-                            <a href="#know-more" className="flex bg-white lg:text-lg xl:text-[20px] md:text-[12px] xs:text-[15px] s:text-[13px] a:text-[10px] md:pl-[8px] xs:pl-[8px] md:pr-[15px] xl:w-36 lg:w-[114px] md:w-[73px] xs:w-[84px] text-black border border-blue-800 xl:pr-[3px] xl:pl-[28px] lg:pl-[10px] lg:pr-[3px] py-1 uppercase hover:bg-[#005477] hover:text-white transition-colors">
+                            <a href="#know-more" className="flex bg-white lg:text-lg xl:text-[20px] md:text-[12px] xs:text-[15px] s:text-[13px] a:text-[10px] md:pl-[8px] xs:pl-[8px] md:pr-[15px] xl:w-36 lg:w-[114px] md:w-[73px] xs:w-[84px] s:w-[77px] a:w-[67px] text-black border border-blue-800 xl:pr-[3px] xl:pl-[28px] lg:pl-[10px] lg:pr-[3px] py-1 uppercase hover:bg-[#005477] hover:text-white transition-colors">
                                 Send
                                 <div className='ml-custom-left xs:ml-[8px] xs:mr-0 xl:ml-[23px] lg:ml-[18px] md:ml-[8px] lg:mr-custom-right1 mr-custom-right'>
-                                    <span className='bg-[#005477] text-white xl:px-3 lg:px-3 md:px-2 xs:px-2 xl:py-[7px] lg:pt-[8px] lg:pb-[8px] md:py-[7px] xs:pt-[6px] xs:pb-[8px]'>&gt;</span>
+                                    <span className='bg-[#005477] text-white xl:px-3 lg:px-3 md:px-2 xs:px-2 xl:py-[7px] lg:pt-[8px] lg:pb-[8px] md:py-[7px] xs:pt-[6px] s:pt-[7px] xs:pb-[8px] a:pb-[7px]'>&gt;</span>
                                 </div>
                             </a>
                         </form>
