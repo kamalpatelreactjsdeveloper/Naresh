@@ -182,36 +182,57 @@ const MainPages = () => {
                                         <div className="absolute bottom-0 left-0 w-full  3xl:p-12 xl:p-6 lg:p-6 md:p-3 xs:p-4 text-white">
                                             <h3 className="3xl:text-5xl xl:text-4xl xs:text-3xl  text-start md:text-[21px] font-bold">ADMIXTURE</h3>
                                             <div className="flex items-center 3xl:mt-4 xs:mt-2 mt-4 md:mt-2">
-                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[121px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[18px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
+                                                <a
+                                                    href="/Products"
+                                                    className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[121px] md:w-[88px] xs:text-[12px] xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[18px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1 xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors"
+                                                >
+                                                    Learn More
                                                     <div className='xl:ml-[17px] md:ml-[8px] xs:ml-[8px] mr-custom-right'>
-                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[7px] xs:pb-[8px] ">&gt;</span>
+                                                        <span className="bg-[#005477] text-white xl:px-3 md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px] xs:pt-[7px] xs:pb-[8px]">
+                                                            &gt;
+                                                        </span>
                                                     </div>
                                                 </a>
                                             </div>
+
                                         </div>
                                     </div>
                                     <div className="relative 3xl:w-[550px] 2xl:w-[490px] 2xl:h-[600px] 3xl:h-[700px] xl:w-[400px] lg:w-[284px] md:w-[220px] xs:w-[300px] xs:h-[399px] lg:h-[361px] md:h-[300px] xl:h-[500px] bg-cover bg-center overlay-container" style={{ backgroundImage: `url(${image5})` }}>
                                         <div className="absolute bottom-0 left-0 w-full 3xl:p-12 xl:p-6 lg:p-6 md:p-3 xs:p-4 text-white">
                                             <h3 className="3xl:text-5xl xl:text-4xl xs:text-3xl  text-start md:text-[21px] font-bold">ACC BLOCK</h3>
                                             <div className="flex items-center 3xl:mt-4 xs:mt-2 mt-4 md:mt-2">
-                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[121px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[18px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
-                                                    <div className='xl:ml-[17px] md:ml-[8px] xs:ml-[8px] mr-custom-right'>
-                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[8px] xs:pb-[8px] ">&gt;</span>
+                                                <a
+                                                    href="/Products"
+                                                    className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[121px] md:w-[88px] xs:text-[12px] xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[18px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1 xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors"
+                                                >
+                                                    Learn More
+                                                    <div className="xl:ml-[17px] md:ml-[8px] xs:ml-[8px] mr-custom-right">
+                                                        <span className="bg-[#005477] text-white xl:px-3 md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px] xs:pt-[8px] xs:pb-[8px]">
+                                                            &gt;
+                                                        </span>
                                                     </div>
                                                 </a>
                                             </div>
+
                                         </div>
                                     </div>
                                     <div className="relative 3xl:w-[550px] 2xl:w-[490px] 2xl:h-[600px] 3xl:h-[700px] xl:w-[400px] lg:w-[284px] md:w-[220px] xs:w-[300px] xs:h-[399px] lg:h-[361px] md:h-[300px] xl:h-[500px] bg-cover bg-center overlay-container" style={{ backgroundImage: `url(${image6})` }}>
                                         <div className="absolute bottom-0 left-0 w-full 3xl:p-12 xl:p-6 lg:p-6 md:p-3 xs:p-4 text-white">
                                             <h3 className="3xl:text-5xl xl:text-4xl xs:text-3xl  text-start md:text-[21px] font-bold">JOINTING MORTAR</h3>
                                             <div className="flex items-center 3xl:mt-4 xs:mt-2 mt-4 md:mt-2">
-                                                <a className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[121px]  md:w-[88px] xs:text-[12px]  xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[18px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1  xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors" href="#">Learn More
-                                                    <div className='xl:ml-[17px] md:ml-[8px] xs:ml-[8px] mr-custom-right'>
-                                                        <span className="bg-[#005477] text-white xl:px-3  md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px} xs:pt-[8px] xs:pb-[8px] ">&gt;</span>
+                                                <a
+                                                    href="/Products"
+                                                    className="bg-white learn-more-btn xl:w-[142px] lg:w-[101px] md:mb-[2px] xs:w-[121px] md:w-[88px] xs:text-[12px] xl:text-[13px] md:text-[8px] lg:text-[10px] xl:pl-[18px] md:pl-[9px] xs:pl-[9px] flex text-black border border-blue-800 md:py-0 xs:py-1 xl:py-1 lg:py-0 uppercase text-sm hover:bg-[#005477] hover:text-white transition-colors"
+                                                >
+                                                    Learn More
+                                                    <div className="xl:ml-[17px] md:ml-[8px] xs:ml-[8px] mr-custom-right">
+                                                        <span className="bg-[#005477] text-white xl:px-3 md:px-2 xs:px-2 xl:py-[7px] md:pt-[4px] md:pb-[5px] lg:pt-[4px] lg:pb-[4px] xs:pt-[8px] xs:pb-[8px]">
+                                                            &gt;
+                                                        </span>
                                                     </div>
                                                 </a>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
