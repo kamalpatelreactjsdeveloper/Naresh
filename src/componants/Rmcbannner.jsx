@@ -12,12 +12,12 @@ const Rmcbanner = () => {
 
             <div className="absolute inset-0 w-1/2  flex items-center justify-start px-8 lg:px-20 pt-0 ">
                 <div className="text-black mt-[-60px] ">
-                    <p className=" xs:text-md italic text-black md:text-3xl xl:text-[52px] lg:text-[38px] xl:mb-7 lg:mb-4 "> We provide range of   </p>
+                    <p className=" xs:text-[14px] italic text-black md:text-3xl xl:text-[52px] lg:text-[38px] xl:mb-7 lg:mb-4 xs "> We provide range of   </p>
                     <div className="flex italic">
-                        <h1 className="text-3xl xs:text-xl text-customtext md:text-4xl lg:text-5xl xl:text-[64px]  font-bold ">SOLUTIONS </h1>
-                        <p className="xl:pt-5  lg:pt-3 md:pt-[3px] xs:text-md xs:pl-[2px] xs:pt-[3px] text-black md:text-3xl xl:text-[52px] lg:text-[38px] pl-2">in</p>
+                        <h1 className="text-3xl xs:text-[18px] text-customtext md:text-4xl lg:text-5xl xl:text-[64px]  font-bold ">SOLUTIONS </h1>
+                        <p className="xl:pt-5  lg:pt-3 md:pt-[3px] xs:text-[14px] xs:pl-[2px] xs:pt-[8px] text-black md:text-3xl xl:text-[52px] lg:text-[38px] pl-2">in</p>
                     </div>
-                    <h1 className="text-3xl italic xs:text-xl text-customtext lg:text-5xl xl:text-[64px] lg:pt-2  font-bold ">
+                    <h1 className="text-3xl italic xs:text-[18px] text-customtext lg:text-5xl xl:text-[64px] lg:pt-2  font-bold ">
                         RMC
                     </h1>
                 </div>
