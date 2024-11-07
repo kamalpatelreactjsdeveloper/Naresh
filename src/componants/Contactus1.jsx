@@ -9,11 +9,11 @@ const Contactus1 = () => {
         <div>
             <div>
                 <div className=" 2xl:max-w-[1440px] mx-auto flex flex-col md:flex-row items-center md:justify-between  pb-0 xs:pt-4 ">
-                   
+
                     <div className="w-full md:w-1/2 text-left mb-10 lg:mb-0 bg-customtext py-[215px] pl-8 flex flex-col justify-center">
                         <p className="xl:text-[70px] lg:text-[50px] md:text-[40px] xs:text-[40px]  pl-[30px] font-bold italic text-white">THANK YOU</p>
                         <p className="italic  pl-[40px] xl:text-[40px] lg:text-[25px] md:text-[18px] xs:text-[18px] xl:mt-[-20px] text-white">
-                             for showing interest in
+                            for showing interest in
                         </p>
                         <p className="italic  xl:text-[28px] lg:text-[18px] md:text-[13px] xs:text-[13px] xl:mt-[-15px] lg:mt-[-6px] text-white pl-[38px]">
                             SDEKAY INFRA MARKET PRIVATE LIMITED.
@@ -26,6 +26,7 @@ const Contactus1 = () => {
                                 e.preventDefault();
                                 const name = e.target.name.value;
                                 const phone = e.target.phone.value;
+
                                 const namePattern = /^[A-Za-z ]+$/;
                                 const phonePattern = /^[0-9]{10,15}$/;
 
@@ -38,7 +39,7 @@ const Contactus1 = () => {
                                     return;
                                 }
 
-                                // Handle form submission logic here
+                                // Place your actual form submission logic here
                             }}
                         >
                             <div>
@@ -48,6 +49,8 @@ const Contactus1 = () => {
                                     name="name"
                                     className="w-full border border-black lg:text-xl xs:text-xl xs:p-3 md:text-md xl:p-5 md:p-3 rounded focus:outline-none placeholder-blue-900"
                                     placeholder="Name:"
+                                    pattern="[A-Za-z ]+"
+                                    title="Name should only contain letters and spaces."
                                     required
                                 />
                             </div>
@@ -58,6 +61,10 @@ const Contactus1 = () => {
                                     name="phone"
                                     className="w-full border border-black lg:text-xl xs:text-xl xs:p-3 md:text-md xl:p-5 md:p-3 rounded focus:outline-none placeholder-blue-900"
                                     placeholder="Phone No:"
+                                    pattern="[0-9]+"
+                                    title="Phone number should only contain numbers."
+                                    minLength="10"
+                                    maxLength="15"
                                     required
                                 />
                             </div>
@@ -94,7 +101,7 @@ const Contactus1 = () => {
                     </div>
 
                 </div>
-               
+
             </div>
             <section className="2xl:max-w-[1440px] mx-auto flex flex-col items-center  bg-white pt-[50px] pb-[100px]">
                 <h2 className="grid text-center xl:text-[35px] lg:text-[25px] xs:text-[20px] ">
