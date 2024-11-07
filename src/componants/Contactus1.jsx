@@ -20,15 +20,34 @@ const Contactus1 = () => {
                         </p>
                     </div>
                     <div className="w-full md:w-1/2 xl:p-[50px] xs:p-[24px] bg-[#f2f7fa]">
-                        <form className="lg:space-y-6 md:space-y-3 xs:space-y-3">
+                        <form
+                            className="lg:space-y-6 md:space-y-3 xs:space-y-3"
+                            onSubmit={(e) => {
+                                e.preventDefault();
+                                const name = e.target.name.value;
+                                const phone = e.target.phone.value;
+                                const namePattern = /^[A-Za-z ]+$/;
+                                const phonePattern = /^[0-9]{10,15}$/;
+
+                                if (!namePattern.test(name)) {
+                                    alert("Name should only contain letters and spaces.");
+                                    return;
+                                }
+                                if (!phonePattern.test(phone)) {
+                                    alert("Phone number should only contain numbers and be 10-15 digits long.");
+                                    return;
+                                }
+
+                                // Handle form submission logic here
+                            }}
+                        >
                             <div>
                                 <input
                                     type="text"
                                     id="name"
+                                    name="name"
                                     className="w-full border border-black lg:text-xl xs:text-xl xs:p-3 md:text-md xl:p-5 md:p-3 rounded focus:outline-none placeholder-blue-900"
                                     placeholder="Name:"
-                                    pattern="[A-Za-z ]+"
-                                    title="Name should only contain letters and spaces."
                                     required
                                 />
                             </div>
@@ -36,12 +55,9 @@ const Contactus1 = () => {
                                 <input
                                     type="tel"
                                     id="phone"
+                                    name="phone"
                                     className="w-full border border-black lg:text-xl xs:text-xl xs:p-3 md:text-md xl:p-5 md:p-3 rounded focus:outline-none placeholder-blue-900"
                                     placeholder="Phone No:"
-                                    pattern="[0-9]+"
-                                    title="Phone number should only contain numbers."
-                                    minlength="10"
-                                    maxlength="15"
                                     required
                                 />
                             </div>
@@ -49,6 +65,7 @@ const Contactus1 = () => {
                                 <input
                                     type="email"
                                     id="email"
+                                    name="email"
                                     className="w-full border border-black lg:text-xl xs:text-xl xs:p-3 md:text-md xl:p-5 md:p-3 rounded focus:outline-none placeholder-blue-900"
                                     placeholder="Email Id:"
                                     required
@@ -57,20 +74,25 @@ const Contactus1 = () => {
                             <div>
                                 <textarea
                                     id="message"
+                                    name="message"
                                     className="w-full border border-black lg:text-xl xs:text-xl xs:p-3 md:text-md xl:p-5 md:p-3 rounded focus:outline-none placeholder-blue-900"
                                     placeholder="Message:"
                                     rows="4"
                                     required
                                 ></textarea>
                             </div>
-                            <a href="#know-more" className="flex bg-white lg:text-lg xl:text-[20px] md:text-[12px] xs:text-[15px] s:text-[13px] a:text-[10px] md:pl-[8px] xs:pl-[8px] md:pr-[15px] xl:w-36 lg:w-[114px] md:w-[73px] xs:w-[84px] s:w-[77px] a:w-[64px] text-black border border-blue-800 xl:pr-[3px] xl:pl-[28px] lg:pl-[10px] lg:pr-[3px] py-1 uppercase hover:bg-[#005477] hover:text-white transition-colors">
+                            <button
+                                type="submit"
+                                className="flex bg-white lg:text-lg xl:text-[20px] md:text-[12px] xs:text-[15px] s:text-[13px] a:text-[10px] md:pl-[8px] xs:pl-[8px] md:pr-[15px] xl:w-36 lg:w-[114px] md:w-[73px] xs:w-[84px] s:w-[77px] a:w-[64px] text-black border border-blue-800 xl:pr-[3px] xl:pl-[28px] lg:pl-[10px] lg:pr-[3px] py-1 uppercase hover:bg-[#005477] hover:text-white transition-colors"
+                            >
                                 Send
                                 <div className='ml-custom-left xs:ml-[8px] xs:mr-0 xl:ml-[23px] lg:ml-[18px] md:ml-[8px] lg:mr-custom-right1 mr-custom-right'>
                                     <span className='bg-[#005477] text-white xl:px-3 lg:px-3 md:px-2 xs:px-2 xl:py-[7px] lg:pt-[8px] lg:pb-[8px] md:py-[7px] xs:pt-[6px] s:pt-[7px] xs:pb-[8px] a:pb-[7px]'>&gt;</span>
                                 </div>
-                            </a>
+                            </button>
                         </form>
                     </div>
+
                 </div>
                
             </div>
