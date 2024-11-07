@@ -24,21 +24,7 @@ const Contactus1 = () => {
                             className="lg:space-y-6 md:space-y-3 xs:space-y-3"
                             onSubmit={(e) => {
                                 e.preventDefault();
-                                const name = e.target.name.value;
-                                const phone = e.target.phone.value;
-
-                                const namePattern = /^[A-Za-z ]+$/;
-                                const phonePattern = /^[0-9]{10,15}$/;
-
-                                if (!namePattern.test(name)) {
-                                    alert("Name should only contain letters and spaces.");
-                                    return;
-                                }
-                                if (!phonePattern.test(phone)) {
-                                    alert("Phone number should only contain numbers and be 10-15 digits long.");
-                                    return;
-                                }
-
+                                alert("Form submitted successfully!");
                                 // Place your actual form submission logic here
                             }}
                         >
@@ -51,6 +37,14 @@ const Contactus1 = () => {
                                     placeholder="Name:"
                                     pattern="[A-Za-z ]+"
                                     title="Name should only contain letters and spaces."
+                                    onInput={(e) => {
+                                        const namePattern = /^[A-Za-z ]+$/;
+                                        if (!namePattern.test(e.target.value)) {
+                                            e.target.setCustomValidity("Name should only contain letters and spaces.");
+                                        } else {
+                                            e.target.setCustomValidity(""); // Clears the error message
+                                        }
+                                    }}
                                     required
                                 />
                             </div>
@@ -65,6 +59,14 @@ const Contactus1 = () => {
                                     title="Phone number should only contain numbers."
                                     minLength="10"
                                     maxLength="15"
+                                    onInput={(e) => {
+                                        const phonePattern = /^[0-9]{10,15}$/;
+                                        if (!phonePattern.test(e.target.value)) {
+                                            e.target.setCustomValidity("Phone number should only contain 10-15 digits.");
+                                        } else {
+                                            e.target.setCustomValidity(""); // Clears the error message
+                                        }
+                                    }}
                                     required
                                 />
                             </div>
