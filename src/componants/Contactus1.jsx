@@ -59,6 +59,7 @@ const Contactus1 = () => {
                                     title="Phone number should only contain numbers."
                                     minLength="10"
                                     maxLength="15"
+                                    required
                                     onInput={(e) => {
                                         const phonePattern = /^[0-9]{10,15}$/;
                                         if (!phonePattern.test(e.target.value)) {
@@ -67,7 +68,6 @@ const Contactus1 = () => {
                                             e.target.setCustomValidity(""); // Clears the error message
                                         }
                                     }}
-                                    required
                                 />
                             </div>
                             <div>
