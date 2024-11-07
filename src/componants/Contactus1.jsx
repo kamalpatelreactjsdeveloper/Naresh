@@ -38,12 +38,12 @@ const Contactus1 = () => {
                                     pattern="[A-Za-z ]+"
                                     title="Name should only contain letters and spaces."
                                     onInput={(e) => {
-                                        const namePattern = /^[A-Za-z ]+$/;
-                                        if (!namePattern.test(e.target.value)) {
-                                            e.target.setCustomValidity("Name should only contain letters and spaces.");
-                                        } else {
-                                            e.target.setCustomValidity(""); // Clears the error message
-                                        }
+                                        // Remove any character that isn't a letter or space
+                                        e.target.value = e.target.value.replace(/[^A-Za-z ]/g, '');
+                                    }}
+                                    onInvalid={(e) => {
+                                        e.preventDefault();
+                                        alert("Name should only contain letters and spaces.");
                                     }}
                                     required
                                 />
@@ -61,12 +61,12 @@ const Contactus1 = () => {
                                     maxLength="15"
                                     required
                                     onInput={(e) => {
-                                        const phonePattern = /^[0-9]{10,15}$/;
-                                        if (!phonePattern.test(e.target.value)) {
-                                            e.target.setCustomValidity("Phone number should only contain 10-15 digits.");
-                                        } else {
-                                            e.target.setCustomValidity(""); // Clears the error message
-                                        }
+                                        // Remove any character that isn't a number
+                                        e.target.value = e.target.value.replace(/[^0-9]/g, '');
+                                    }}
+                                    onInvalid={(e) => {
+                                        e.preventDefault();
+                                        alert("Phone number should only contain numbers.");
                                     }}
                                 />
                             </div>
